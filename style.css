@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: 'Libre Baskerville', serif;
 }
+.top{
+    background-image: url(images/shape/Frame\ 58.jpg);
+}
 .navbar{
     display: flex;
     font-weight: 800;
@@ -38,8 +41,9 @@ ul li a{
 }
 h1{
     color: rgb(65, 60, 60);
+    font-size: 35px;
 }
-.yellow{
+.highlight{
     color: orangered;
 }
 .first-page{
@@ -48,9 +52,7 @@ h1{
   
 }
 
-.top{
-    background-image: url(images/shape/Frame\ 58.jpg);
-}
+
 .first-page h1{
     font-size: 72px;
     font-weight: 800;
@@ -62,7 +64,12 @@ h1{
 }
 .button{
     color: white;
-    background-image: linear-gradient(orangered ,rgba(255, 68, 0, 0.603));
+    /* background-image: linear-gradient(orangered ,rgba(255, 68, 0, 0.603)); */
+    /* background-color: #c20114;
+background-image: linear-gradient(147deg, #c20114 0%, #e8c547 74%); */
+background-color: #ee9617;
+background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+
     border-radius: 30px;
     text-decoration: none;
     font-size: 20px;
@@ -97,8 +104,8 @@ h1{
 .recipie{
     text-align: center;
 }
-.recipie h1{
-    font-size: 35px;
+.products h1{
+    font-size: 28px;
 }
 .recipie p{
     font-size: 18px;
