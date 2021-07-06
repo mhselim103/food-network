@@ -4,6 +4,8 @@ body{
 }
 .navbar{
     display: flex;
+    font-weight: 800;
+    
 }
 .left{
     width: 25%;
@@ -17,10 +19,10 @@ body{
 .right{
     width: 25%;
     font-size: 30px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     text-align: center;
     margin-top: 28px;
-    
+    margin-left: 148px;
 }
 .right a{
     text-decoration: none;
@@ -32,6 +34,7 @@ Ul{
 ul li a{
     text-decoration: none;
     padding: 0 20px;
+    color: rgb(71, 67, 67);
 }
 h1{
     color: rgb(65, 60, 60);
