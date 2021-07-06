@@ -4,6 +4,9 @@ body{
 }
 .top{
     background-image: url(images/shape/Frame\ 58.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navbar{
     display: flex;
@@ -64,9 +67,7 @@ h1{
 }
 .button{
     color: white;
-    /* background-image: linear-gradient(orangered ,rgba(255, 68, 0, 0.603)); */
-    /* background-color: #c20114;
-background-image: linear-gradient(147deg, #c20114 0%, #e8c547 74%); */
+   
 background-color: #ee9617;
 background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
 
@@ -79,6 +80,7 @@ background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
 .flexible{
     display: flex;
     background-image: url(images/shape/Frame\ 59.jpg);
+    background-size: cover;
     
 }
 .half-width{
@@ -92,7 +94,7 @@ background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
 }
 .second p{
     font-size: 20px;
-    /* padding-right: 130px; */
+    
     margin-right: 20px;
     margin-top: 30px;
     margin-bottom: 65px;
@@ -132,7 +134,7 @@ background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
     box-shadow:0px 5px 34px gray;
     margin: 20px;
 }
-.fan{
+.connection{
     margin: 20px 165px;
 }
 .last-page{
