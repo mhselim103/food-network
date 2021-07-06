@@ -33,6 +33,9 @@ ul li a{
     text-decoration: none;
     padding: 0 20px;
 }
+h1{
+    color: rgb(65, 60, 60);
+}
 .yellow{
     color: orangered;
 }
@@ -54,13 +57,13 @@ ul li a{
     font-size: 20px;
     margin-bottom: 65px;
 }
-.first-page a{
+.button{
     color: white;
     background-image: linear-gradient(orangered ,rgba(255, 68, 0, 0.603));
     border-radius: 30px;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 40px;
+    padding: 13px 40px;
     
 }
 .flexible{
@@ -79,10 +82,50 @@ ul li a{
 }
 .second p{
     font-size: 20px;
-    padding-right: 130px;
+    /* padding-right: 130px; */
+    margin-right: 20px;
     margin-top: 30px;
+    margin-bottom: 65px;
 }
 .half-width h1{
     margin-top: 120px;
-    font-size: 25px;
+    font-size: 35px;
+}
+.recipie{
+    text-align: center;
+}
+.recipie h1{
+    font-size: 35px;
+}
+.recipie p{
+    font-size: 18px;
+}
+.third-page{
+    display: flex;
+}
+.products{
+    width: 34%;
+    margin: 30px 24px;
+    border-radius: 20px;
+    box-shadow:0px 5px 34px gray;
+}
+.products img{
+    border-radius: 20px;
+    margin: 30px;
+}
+.title{
+    margin: 0 30px;
+}
+.followers{
+    display: flex;
+    text-align: center;
+    box-shadow:0px 5px 34px gray;
+    margin: 20px;
+}
+.fan{
+    margin: 20px 165px;
+}
+.last-page{
+    text-align: center;
+    margin-top: 80px;
 }
